@@ -1,14 +1,26 @@
 {
   "name": "function-emitter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tiny prototype to set on a funciton to make it work as an event emitter.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tape": "^4.5.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoryNunn/function-emitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KoryNunn/function-emitter/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/function-emitter#readme"
 }
